@@ -16,7 +16,9 @@ export function Table({ tool, data }) {
             <tr key={`row-${vul}`}>
               <td id="row-name">{vul}</td>
               <td>{data[vul][0]}</td>
-              <td>{data[vul][1]}</td>
+              <td>
+                <a href={data[vul][1]}>Weitere Informationen zu {vul}</a>
+              </td>
             </tr>
           ))}
         </tbody>
