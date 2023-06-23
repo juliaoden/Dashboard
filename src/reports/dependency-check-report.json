@@ -1,0 +1,6578 @@
+{
+  "reportSchema": "1.1",
+  "scanInfo": {
+    "engineVersion": "8.3.1",
+    "dataSource": [
+      { "name": "NVD CVE Checked", "timestamp": "2023-06-21T16:39:00" },
+      { "name": "NVD CVE Modified", "timestamp": "2023-06-21T16:00:03" },
+      { "name": "VersionCheckOn", "timestamp": "2023-06-21T16:39:17" },
+      { "name": "kev.checked", "timestamp": "1687365558" }
+    ]
+  },
+  "projectInfo": {
+    "name": "",
+    "reportDate": "2023-06-21T16:39:38.842607300Z",
+    "credits": {
+      "NVD": "This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
+      "CISA": "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "NPM": "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
+      "RETIREJS": "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+      "OSSINDEX": "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+    }
+  },
+  "dependencies": [
+    {
+      "isVirtual": false,
+      "fileName": ".eslintrc.js",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/.eslintrc.js",
+      "md5": "081d80faa2b786ba84ca5d084436fade",
+      "sha1": "b655795dd2397676299dbeda58270754017e69e4",
+      "sha256": "c84cc8892b07ede06df412dbfa988aeb70da833545b7d212bee5f3d814665569",
+      "evidenceCollected": {
+        "vendorEvidence": [],
+        "productEvidence": [],
+        "versionEvidence": []
+      }
+    },
+    {
+      "isVirtual": false,
+      "fileName": ".eslintrc.js",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/frontend/.eslintrc.js",
+      "md5": "4201e161b33ba3590d068a076ba63dd5",
+      "sha1": "4dc6bd039cb1dae7012041cdca772c0d6adeb3a3",
+      "sha256": "dc3dce6eef3c5467ee8ea06112f5aa5a93119ec96ac15112b1eb45c4e7914176",
+      "evidenceCollected": {
+        "vendorEvidence": [],
+        "productEvidence": [],
+        "versionEvidence": []
+      }
+    },
+    {
+      "isVirtual": false,
+      "fileName": ".stylelintrc.js",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/frontend/.stylelintrc.js",
+      "md5": "494da5790c0d7a524ceb7f636395d9ca",
+      "sha1": "a47e0c40a5260f7ed57a942b3e2e9e89646b883a",
+      "sha256": "aa29ce548c7b5bc052fefa64bee29b625b5fcd03e093ea5ff30a737ff3b27640",
+      "evidenceCollected": {
+        "vendorEvidence": [],
+        "productEvidence": [],
+        "versionEvidence": []
+      }
+    },
+    {
+      "isVirtual": false,
+      "fileName": "Gruntfile.js",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/Gruntfile.js",
+      "md5": "cb0ce019eba7e1f163bac1d809a5ed18",
+      "sha1": "70fe993c62a044202809059481ade424de0ddbe1",
+      "sha256": "7bc40429544b6b9c3b71849e5b520a9c13e109629a4a988fae29fbfd774bb321",
+      "evidenceCollected": {
+        "vendorEvidence": [],
+        "productEvidence": [],
+        "versionEvidence": []
+      }
+    },
+    {
+      "isVirtual": false,
+      "fileName": "aho-corasick-double-array-trie-1.2.3.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/aho-corasick-double-array-trie-1.2.3.jar",
+      "md5": "e19c35a59076f62613b6aa49f03ae116",
+      "sha1": "7692c7e46a056a87ce01fa0d0b733ad3586552e5",
+      "sha256": "564f0fc690d50702a313510b9a72e9505ace6e81108e84f65de4feb0da244eb8",
+      "description": "\n        An extremely fast implementation of Aho Corasick algorithm based on Double Array Trie.\n    ",
+      "license": "Apache License Version 2.0: https://www.apache.org/licenses/LICENSE-2.0.html",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "aho-corasick-double-array-trie"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "ahocorasickdoublearraytrie"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "algorithm"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "algorithm"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "hankcs"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "hankcs"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "aho-corasick-double-array-trie"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "me@hankcs.com"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "hankcs"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "com.hankcs"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "AhoCorasickDoubleArrayTrie"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "organization name",
+            "value": "\u7801\u519C\u573A"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "organization url",
+            "value": "http://www.hankcs.com/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "hankcs/AhoCorasickDoubleArrayTrie"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "aho-corasick-double-array-trie"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "ahocorasickdoublearraytrie"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "algorithm"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "algorithm"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "hankcs"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "aho-corasick-double-array-trie"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "me@hankcs.com"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "hankcs"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "com.hankcs"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "AhoCorasickDoubleArrayTrie"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "organization name",
+            "value": "\u7801\u519C\u573A"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "organization url",
+            "value": "http://www.hankcs.com/"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "url",
+            "value": "hankcs/AhoCorasickDoubleArrayTrie"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "1.2.3"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "1.2.3"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/com.hankcs/aho-corasick-double-array-trie@1.2.3",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/com.hankcs/aho-corasick-double-array-trie@1.2.3?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "android-json-0.0.20131108.vaadin1.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/android-json-0.0.20131108.vaadin1.jar",
+      "md5": "10612241a9cc269501a7a2b8a984b949",
+      "sha1": "fa26d351fe62a6a17f5cda1287c1c6110dec413f",
+      "sha256": "dfb7bae2f404cfe0b72b4d23944698cb716b7665171812a0a4d0f5926c0fac79",
+      "description": "\n    \u00A0\u00A0JSON (JavaScript Object Notation) is a lightweight data-interchange format.\n      This is the org.json compatible Android implementation extracted from the Android SDK\n   \u00A0",
+      "license": "Apache License 2.0: http://www.apache.org/licenses/LICENSE-2.0",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "android-json"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "groupid",
+            "value": "com.vaadin.external.google"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "android-json"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "json"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "json"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-requiredexecutionenvironment",
+            "value": "JavaSE-1.6"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.json"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "http://developer.android.com/sdk"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Vendor",
+            "value": "Google"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "android-json"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "androiddev"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "id"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Android Dev"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "Google"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "http://www.google.com"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "com.vaadin.external.google"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "JSON library from Android SDK"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "http://developer.android.com/sdk"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "android-json"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "android-json"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "json"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "json-android"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-requiredexecutionenvironment",
+            "value": "JavaSE-1.6"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.json"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "http://developer.android.com/sdk"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "android-json"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "androiddev"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "id"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Android Dev"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "Google"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "http://www.google.com"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "com.vaadin.external.google"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "JSON library from Android SDK"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "http://developer.android.com/sdk"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "version",
+            "value": "0.0.20131108.vaadin1"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Bundle-Version",
+            "value": "0.0.20131108.vaadin1"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Version",
+            "value": "0.0.20131108.vaadin1"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "0.0.20131108.vaadin1"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/com.vaadin.external.google/android-json@0.0.20131108.vaadin1",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/com.vaadin.external.google/android-json@0.0.20131108.vaadin1?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "annotations-24.0.1.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/annotations-24.0.1.jar",
+      "md5": "63ebd6140ac340babaf89a754c359596",
+      "sha1": "13c5c75c4206580aa4d683bffee658caae6c9f43",
+      "sha256": "61666dbce7e42e6c85b43c04fcfb8293a21dcb55b3c80e869270ce42c01a6b35",
+      "description": "A set of annotations used for code inspection support and code documentation.",
+      "license": "The Apache Software License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "annotations"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "groupid",
+            "value": "org.jetbrains"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "annotations"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "annotations"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "jetbrains"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "multi-release",
+            "value": "true"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "annotations"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "JetBrains"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "JetBrains Team"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "JetBrains"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "https://www.jetbrains.com"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.jetbrains"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "JetBrains Java Annotations"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "JetBrains/java-annotations"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "annotations"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "annotations"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "annotations"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "multi-release",
+            "value": "true"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "annotations"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "JetBrains"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "JetBrains Team"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "JetBrains"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "https://www.jetbrains.com"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.jetbrains"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "JetBrains Java Annotations"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "url",
+            "value": "JetBrains/java-annotations"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "version",
+            "value": "24.0.1"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "24.0.1"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "24.0.1"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/org.jetbrains/annotations@24.0.1",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/org.jetbrains/annotations@24.0.1?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "ant-1.10.13.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/ant-1.10.13.jar",
+      "md5": "0781dacdb3a7af3a1c1f6d5187438da4",
+      "sha1": "85fd5990a27ddafe8af3f7a6d7132d2c29a22a7c",
+      "sha256": "befbfc79e744e9892cfa7db96df3b6e82dc17d2571af42aa427976fc22299838",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "ant"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "groupid",
+            "value": "org.apache.ant"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "ant"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "ant"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "tools"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "manifest: org/apache/tools/ant/",
+            "name": "Implementation-Vendor",
+            "value": "Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "ant"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.apache.ant"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Ant Core"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "ant-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "https://ant.apache.org/"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "ant"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "ant"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "ant"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "ant"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "tools"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "tools"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "manifest: org/apache/tools/ant/",
+            "name": "Implementation-Title",
+            "value": "org.apache.tools.ant"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "manifest: org/apache/tools/ant/",
+            "name": "Specification-Title",
+            "value": "Apache Ant"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "ant"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.apache.ant"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Ant Core"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "ant-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "https://ant.apache.org/"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "version",
+            "value": "1.10.13"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "1.10.13"
+          },
+          {
+            "type": "version",
+            "confidence": "MEDIUM",
+            "source": "manifest: org/apache/tools/ant/",
+            "name": "Implementation-Version",
+            "value": "1.10.13"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "1.10.13"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/org.apache.ant/ant@1.10.13",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/org.apache.ant/ant@1.10.13?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ],
+      "vulnerabilityIds": [
+        {
+          "id": "cpe:2.3:a:apache:ant:1.10.13:*:*:*:*:*:*:*",
+          "confidence": "HIGHEST",
+          "url": "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Aant&cpe_version=cpe%3A%2F%3Aapache%3Aant%3A1.10.13"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "bcpg-jdk18on-1.71.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/bcpg-jdk18on-1.71.jar",
+      "md5": "dbc4cb1dcb79a19a809e29f4be3f6eb7",
+      "sha1": "d42ad9fe1b89246bb4ca2a45c0646bf6f6066013",
+      "sha256": "57f9ab76a8358abbea90ba1ef8e553b8ae3d07b2337078a4ca20b1cbd48b4ec5",
+      "description": "The Bouncy Castle Java API for handling the OpenPGP protocol. This jar contains the OpenPGP API for JDK 1.8 and up. The APIs can be used in conjunction with a JCE/JCA provider such as the one provided with the Bouncy Castle Cryptography APIs.",
+      "license": "Bouncy Castle Licence: https://www.bouncycastle.org/licence.html\nApache Software License, Version 1.1: https://www.apache.org/licenses/LICENSE-1.1",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "bcpg-jdk18on"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "groupid",
+            "value": "org.bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "bcpg-jdk18on"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "bcpg"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "openpgp"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "openpgp"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "application-library-allowable-codebase",
+            "value": "*"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "application-name",
+            "value": "Bouncy Castle OpenPGP API"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.bouncycastle.pg"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-requiredexecutionenvironment",
+            "value": "J2SE-1.5"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "bcpg"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "caller-allowable-codebase",
+            "value": "*"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "codebase",
+            "value": "*"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "extension-name",
+            "value": "org.bouncycastle.bcpg"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Vendor",
+            "value": "BouncyCastle.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Implementation-Vendor-Id",
+            "value": "org.bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "multi-release",
+            "value": "true"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "originally-created-by",
+            "value": "25.312-b07 (Private Build)"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "permissions",
+            "value": "all-permissions"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "specification-vendor",
+            "value": "BouncyCastle.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "trusted-library",
+            "value": "true"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "bcpg-jdk18on"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "feedback-crypto@bouncycastle.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "feedback-crypto"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "The Legion of the Bouncy Castle Inc."
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Bouncy Castle OpenPGP API"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "https://www.bouncycastle.org/java.html"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "bcpg-jdk18on"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "bcpg-jdk18on"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "bcpg"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "bouncycastle"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "openpgp"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "openpgp"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "application-library-allowable-codebase",
+            "value": "*"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "application-name",
+            "value": "Bouncy Castle OpenPGP API"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.bouncycastle.pg"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "bcpg"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-requiredexecutionenvironment",
+            "value": "J2SE-1.5"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "bcpg"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "caller-allowable-codebase",
+            "value": "*"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "codebase",
+            "value": "*"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "extension-name",
+            "value": "org.bouncycastle.bcpg"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "multi-release",
+            "value": "true"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "originally-created-by",
+            "value": "25.312-b07 (Private Build)"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "permissions",
+            "value": "all-permissions"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "trusted-library",
+            "value": "true"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "bcpg-jdk18on"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "feedback-crypto@bouncycastle.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "feedback-crypto"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "The Legion of the Bouncy Castle Inc."
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.bouncycastle"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Bouncy Castle OpenPGP API"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "https://www.bouncycastle.org/java.html"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "version",
+            "value": "1.71"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "1.71"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Bundle-Version",
+            "value": "1.71"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "1.71"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/org.bouncycastle/bcpg-jdk18on@1.71",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/org.bouncycastle/bcpg-jdk18on@1.71?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ],
+      "vulnerabilityIds": [
+        {
+          "id": "cpe:2.3:a:bouncycastle:legion-of-the-bouncy-castle:1.71:*:*:*:*:*:*:*",
+          "confidence": "LOW"
+        },
+        {
+          "id": "cpe:2.3:a:openpgp:openpgp:1.71:*:*:*:*:*:*:*",
+          "confidence": "LOW"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "bcprov-jdk18on-1.71.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/bcprov-jdk18on-1.71.jar",
+      "md5": "bf1578f78f5db468a5f21ee8f8e42b0d",
+      "sha1": "943e8d0c2bd592ad78759c39d6f749fafaf29cf4",
+      "sha256": "f3433a97d780fe9fa3dc3d562a41decd59b2e617ce884de9060349ac14750045",
+      "description": "The Bouncy Castle Crypto package is a Java implementation of cryptographic algorithms. This jar contains JCE provider and lightweight API for the Bouncy Castle Cryptography APIs for JDK 1.8 and up.",
+      "license": "Bouncy Castle Licence: https://www.bouncycastle.org/licence.html",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "bcprov-jdk18on"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "groupid",
+            "value": "org.bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "bcprov-jdk18on"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "provider"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "application-library-allowable-codebase",
+            "value": "*"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "application-name",
+            "value": "Bouncy Castle Provider"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.bouncycastle.provider"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-requiredexecutionenvironment",
+            "value": "J2SE-1.5"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "bcprov"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "caller-allowable-codebase",
+            "value": "*"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "codebase",
+            "value": "*"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "extension-name",
+            "value": "org.bouncycastle.bcprovider"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Vendor",
+            "value": "BouncyCastle.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Implementation-Vendor-Id",
+            "value": "org.bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "multi-release",
+            "value": "true"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "originally-created-by",
+            "value": "25.312-b07 (Private Build)"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "permissions",
+            "value": "all-permissions"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "specification-vendor",
+            "value": "BouncyCastle.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "trusted-library",
+            "value": "true"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "bcprov-jdk18on"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "feedback-crypto@bouncycastle.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "feedback-crypto"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "The Legion of the Bouncy Castle Inc."
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.bouncycastle"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Bouncy Castle Provider"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "https://www.bouncycastle.org/java.html"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "bcprov-jdk18on"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "bcprov-jdk18on"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "hint analyzer",
+            "name": "product",
+            "value": "legion-of-the-bouncy-castle-java-crytography-api"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "hint analyzer",
+            "name": "product",
+            "value": "the_bouncy_castle_crypto_package_for_java"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "bouncycastle"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "org"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "provider"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "application-library-allowable-codebase",
+            "value": "*"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "application-name",
+            "value": "Bouncy Castle Provider"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.bouncycastle.provider"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "bcprov"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-requiredexecutionenvironment",
+            "value": "J2SE-1.5"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "bcprov"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "caller-allowable-codebase",
+            "value": "*"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "codebase",
+            "value": "*"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "extension-name",
+            "value": "org.bouncycastle.bcprovider"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "multi-release",
+            "value": "true"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "originally-created-by",
+            "value": "25.312-b07 (Private Build)"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "permissions",
+            "value": "all-permissions"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "trusted-library",
+            "value": "true"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "bcprov-jdk18on"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "feedback-crypto@bouncycastle.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "feedback-crypto"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "The Legion of the Bouncy Castle Inc."
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.bouncycastle"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Bouncy Castle Provider"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "https://www.bouncycastle.org/java.html"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "version",
+            "value": "1.71"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "1.71"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Bundle-Version",
+            "value": "1.71"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "1.71"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/org.bouncycastle/bcprov-jdk18on@1.71",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/org.bouncycastle/bcprov-jdk18on@1.71?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ],
+      "vulnerabilityIds": [
+        {
+          "id": "cpe:2.3:a:bouncycastle:bouncy-castle-crypto-package:1.71:*:*:*:*:*:*:*",
+          "confidence": "LOW"
+        },
+        {
+          "id": "cpe:2.3:a:bouncycastle:bouncy_castle_crypto_package:1.71:*:*:*:*:*:*:*",
+          "confidence": "LOW"
+        },
+        {
+          "id": "cpe:2.3:a:bouncycastle:legion-of-the-bouncy-castle:1.71:*:*:*:*:*:*:*",
+          "confidence": "LOW"
+        },
+        {
+          "id": "cpe:2.3:a:bouncycastle:legion-of-the-bouncy-castle-java-crytography-api:1.71:*:*:*:*:*:*:*",
+          "confidence": "LOW"
+        },
+        {
+          "id": "cpe:2.3:a:bouncycastle:the_bouncy_castle_crypto_package_for_java:1.71:*:*:*:*:*:*:*",
+          "confidence": "LOW"
+        }
+      ],
+      "vulnerabilities": [
+        {
+          "source": "OSSINDEX",
+          "name": "CVE-2023-33201",
+          "severity": "MEDIUM",
+          "cvssv3": {
+            "baseScore": 6.5,
+            "attackVector": "N",
+            "attackComplexity": "L",
+            "privilegesRequired": "N",
+            "userInteraction": "R",
+            "scope": "U",
+            "confidentialityImpact": "H",
+            "integrityImpact": "N",
+            "availabilityImpact": "N",
+            "baseSeverity": "MEDIUM",
+            "version": "3.1"
+          },
+          "cwes": ["CWE-200"],
+          "description": "bouncycastle - Information Disclosure",
+          "notes": "",
+          "references": [
+            {
+              "source": "OSSIndex",
+              "url": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33201",
+              "name": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2023-33201"
+            },
+            {
+              "source": "OSSINDEX",
+              "url": "https://ossindex.sonatype.org/vulnerability/CVE-2023-33201?component-type=maven&component-name=org.bouncycastle%2Fbcprov-jdk18on&utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1",
+              "name": "[CVE-2023-33201] CWE-200: Information Exposure"
+            },
+            {
+              "source": "OSSIndex",
+              "url": "https://github.com/bcgit/bc-java/wiki/CVE-2023-33201",
+              "name": "https://github.com/bcgit/bc-java/wiki/CVE-2023-33201"
+            }
+          ],
+          "vulnerableSoftware": [
+            {
+              "software": {
+                "id": "cpe:2.3:a:org.bouncycastle:bcprov-jdk18on:1.71:*:*:*:*:*:*:*",
+                "vulnerabilityIdMatched": "true"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "checker-qual-3.12.0.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/checker-qual-3.12.0.jar",
+      "md5": "ab1ae0e2f2f63601597a5a96fca8a54f",
+      "sha1": "d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5",
+      "sha256": "ff10785ac2a357ec5de9c293cb982a2cbb605c0309ea4cc1cb9b9bc6dbe7f3cb",
+      "description": "checker-qual contains annotations (type qualifiers) that a programmer\nwrites to specify Java code for type-checking by the Checker Framework.\n",
+      "license": "The MIT License: http://opensource.org/licenses/MIT",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "checker-qual"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "groupid",
+            "value": "org.checkerframework"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "checker-qual"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "checker"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "checker"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "checkerframework"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "checkerframework"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "qual"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.checkerframework.checker.qual"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "checker-qual"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "https://checkerframework.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "checker-qual"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "mernst@cs.washington.edu"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "smillst@cs.washington.edu"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "mernst"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "smillst"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Michael Ernst"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Suzanne Millstein"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "University of Washington"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "https://www.cs.washington.edu/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.checkerframework"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Checker Qual"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "https://checkerframework.org"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "artifactid",
+            "value": "checker-qual"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "checker-qual"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "checker"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "checker"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "checkerframework"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "qual"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "jar",
+            "name": "package name",
+            "value": "qual"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.checkerframework.checker.qual"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "checker-qual"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "checker-qual"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "https://checkerframework.org"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "checker-qual"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "mernst@cs.washington.edu"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "smillst@cs.washington.edu"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "mernst"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "smillst"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Michael Ernst"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Suzanne Millstein"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "University of Washington"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "https://www.cs.washington.edu/"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.checkerframework"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Checker Qual"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "https://checkerframework.org"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "central",
+            "name": "version",
+            "value": "3.12.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "3.12.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Bundle-Version",
+            "value": "3.12.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Version",
+            "value": "3.12.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.12.0"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/org.checkerframework/checker-qual@3.12.0",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/org.checkerframework/checker-qual@3.12.0?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "commons-beanutils-1.9.4.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/commons-beanutils-1.9.4.jar",
+      "md5": "07dc532ee316fe1f2f0323e9bd2f8df4",
+      "sha1": "d52b9abcd97f38c81342bb7e7ae1eee9b73cba51",
+      "sha256": "7d938c81789028045c08c065e94be75fc280527620d5bd62b519d5838532368a",
+      "description": "Apache Commons BeanUtils provides an easy-to-use but flexible wrapper around reflection and introspection.",
+      "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-beanutils"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "beanutils"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "https://commons.apache.org/proper/commons-beanutils/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.commons-beanutils"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-build",
+            "value": "UNKNOWN_BRANCH@r??????; 2019-07-28 22:14:44+0000"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "https://commons.apache.org/proper/commons-beanutils/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Implementation-Vendor-Id",
+            "value": "org.apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "specification-vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-beanutils"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "britter@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "chtompki@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "craigmcc@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "dion@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "epugh@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "geirm@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ggregory@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jcarman@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jconlon@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jstrachan@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "morgand@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "mvdb@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "niallp@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "rdonkin@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "rwaldhoff@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "sanders@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "scolebourne@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "skitching@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "stain@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "tobrien@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "yoavs@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "britter"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "chtompki"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "craigmcc"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "dion"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "epugh"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "geirm"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ggregory"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jcarman"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jconlon"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jstrachan"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "morgand"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "mvdb"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "niallp"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rdonkin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rwaldhoff"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "sanders"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "scolebourne"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "skitching"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "stain"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "tobrien"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "yoavs"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Benedikt Ritter"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Craig McClanahan"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "David Eric Pugh"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Dion Gillard"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Gary Gregory"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Geir Magnusson Jr."
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Carman"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Strachan"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "John E. Conlon"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Martin van den Bemt"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Morgan James Delagrange"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Niall Pemberton"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Tompkins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Robert Burrell Donkin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rodney Waldhoff"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Scott Sanders"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Simon Kitching"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stephen Colebourne"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stian Soiland-Reyes"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Tim O'Brien"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Yoav Shapira"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "commons-beanutils"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons BeanUtils"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "https://commons.apache.org/proper/commons-beanutils/"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-beanutils"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "beanutils"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "https://commons.apache.org/proper/commons-beanutils/"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "Apache Commons BeanUtils"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.commons-beanutils"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-build",
+            "value": "UNKNOWN_BRANCH@r??????; 2019-07-28 22:14:44+0000"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Title",
+            "value": "Apache Commons BeanUtils"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "https://commons.apache.org/proper/commons-beanutils/"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "specification-title",
+            "value": "Apache Commons BeanUtils"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-beanutils"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "britter@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "chtompki@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "craigmcc@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "dion@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "epugh@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "geirm@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ggregory@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jcarman@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jconlon@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jstrachan@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "morgand@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "mvdb@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "niallp@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "rdonkin@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "rwaldhoff@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "sanders@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "scolebourne@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "skitching@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "stain@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "tobrien@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "yoavs@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "britter"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "chtompki"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "craigmcc"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "dion"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "epugh"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "geirm"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ggregory"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jcarman"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jconlon"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jstrachan"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "morgand"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "mvdb"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "niallp"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rdonkin"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rwaldhoff"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "sanders"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "scolebourne"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "skitching"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "stain"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "tobrien"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "yoavs"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Benedikt Ritter"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Craig McClanahan"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "David Eric Pugh"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Dion Gillard"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Gary Gregory"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Geir Magnusson Jr."
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Carman"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Strachan"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "John E. Conlon"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Martin van den Bemt"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Morgan James Delagrange"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Niall Pemberton"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Tompkins"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Robert Burrell Donkin"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rodney Waldhoff"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Scott Sanders"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Simon Kitching"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stephen Colebourne"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stian Soiland-Reyes"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Tim O'Brien"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Yoav Shapira"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "commons-beanutils"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons BeanUtils"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "https://commons.apache.org/proper/commons-beanutils/"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "1.9.4"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Bundle-Version",
+            "value": "1.9.4"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Version",
+            "value": "1.9.4"
+          },
+          {
+            "type": "version",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-version",
+            "value": "1.9.4"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "1.9.4"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/commons-beanutils/commons-beanutils@1.9.4",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/commons-beanutils/commons-beanutils@1.9.4?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ],
+      "vulnerabilityIds": [
+        {
+          "id": "cpe:2.3:a:apache:commons_beanutils:1.9.4:*:*:*:*:*:*:*",
+          "confidence": "HIGHEST",
+          "url": "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Acommons_beanutils&cpe_version=cpe%3A%2F%3Aapache%3Acommons_beanutils%3A1.9.4"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "commons-cli-1.5.0.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/commons-cli-1.5.0.jar",
+      "md5": "6c3b2052160144196118b1f019504388",
+      "sha1": "dc98be5d5390230684a092589d70ea76a147925c",
+      "sha256": "bc8bb01fc0fad250385706e20f927ddcff6173f6339b387dc879237752567ac6",
+      "description": "\n    Apache Commons CLI provides a simple API for presenting, processing and validating a Command Line Interface.\n  ",
+      "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-cli"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "cli"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "build-jdk-spec",
+            "value": "1.8"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "https://commons.apache.org/proper/commons-cli/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.cli"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-build",
+            "value": "UNKNOWN@re81a871025cd2dd5bc1d3b473c3c495533e7b8f4; 2021-10-23 21:47:04+0000"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Implementation-Vendor-Id",
+            "value": "org.apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "specification-vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-cli"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "bob@werken.com"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "chtompki@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ebourg@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ggregory at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jbjk@mac.com"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jstrachan@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "roxspring@imapmail.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "tn@apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "bob"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "chtompki"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ebourg"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ggregory"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jkeyes"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jstrachan"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "roxspring"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "tn"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Bob McWhirter"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Emmanuel Bourg"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Gary Gregory"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Strachan"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "John Keyes"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Oxspring"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Tompkins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Thomas Neidhart"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "Ariane Software"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "Indigo Stone"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "integral Source"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "SpiritSoft, Inc."
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "Werken"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "https://www.apache.org/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "commons-cli"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons CLI"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "https://commons.apache.org/proper/commons-cli/"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-cli"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "cli"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "build-jdk-spec",
+            "value": "1.8"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "https://commons.apache.org/proper/commons-cli/"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "Apache Commons CLI"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.cli"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-build",
+            "value": "UNKNOWN@re81a871025cd2dd5bc1d3b473c3c495533e7b8f4; 2021-10-23 21:47:04+0000"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Title",
+            "value": "Apache Commons CLI"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "specification-title",
+            "value": "Apache Commons CLI"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-cli"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "bob@werken.com"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "chtompki@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ebourg@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ggregory at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jbjk@mac.com"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "jstrachan@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "roxspring@imapmail.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "tn@apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "bob"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "chtompki"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ebourg"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ggregory"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jkeyes"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jstrachan"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "roxspring"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "tn"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Bob McWhirter"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Emmanuel Bourg"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Gary Gregory"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Strachan"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "John Keyes"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Oxspring"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Tompkins"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Thomas Neidhart"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "Ariane Software"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "Indigo Stone"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "integral Source"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "SpiritSoft, Inc."
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "Werken"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "https://www.apache.org/"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "commons-cli"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons CLI"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "https://commons.apache.org/proper/commons-cli/"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "1.5.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Bundle-Version",
+            "value": "1.5.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Version",
+            "value": "1.5.0"
+          },
+          {
+            "type": "version",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-version",
+            "value": "1.5.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "1.5.0"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/commons-cli/commons-cli@1.5.0",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/commons-cli/commons-cli@1.5.0?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "commons-collections-3.2.2.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/commons-collections-3.2.2.jar",
+      "md5": "f54a8510f834a1a57166970bfc982e94",
+      "sha1": "8ad72fe39fa8c91eaaf12aadb21e0c3661fe26d5",
+      "sha256": "eeeae917917144a68a741d4c0dff66aa5c5c5fd85593ff217bced3fc8ca783b8",
+      "description": "Types that extend and augment the Java Collections Framework.",
+      "license": "http://www.apache.org/licenses/LICENSE-2.0.txt",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-collections"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "collections"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "http://commons.apache.org/collections/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.collections"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-build",
+            "value": "tags/COLLECTIONS_3_2_2_RC3@r1714131; 2015-11-13 00:09:45+0100"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "http://commons.apache.org/collections/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Implementation-Vendor-Id",
+            "value": "org.apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "specification-vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-collections"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "amamment"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "bayard"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "craigmcc"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "geirm"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jcarman"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "matth"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "morgand"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "psteitz"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rdonkin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rwaldhoff"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "scolebourne"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Arun M. Thomas"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Craig McClanahan"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Geir Magnusson"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Henri Yandell"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Carman"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Matthew Hawthorne"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Morgan Delagrange"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Phil Steitz"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Robert Burrell Donkin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rodney Waldhoff"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stephen Colebourne"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "commons-collections"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "http://commons.apache.org/collections/"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-collections"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "collections"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "http://commons.apache.org/collections/"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.collections"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-build",
+            "value": "tags/COLLECTIONS_3_2_2_RC3@r1714131; 2015-11-13 00:09:45+0100"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Title",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "http://commons.apache.org/collections/"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "specification-title",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-collections"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "amamment"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "bayard"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "craigmcc"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "geirm"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jcarman"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "matth"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "morgand"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "psteitz"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rdonkin"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rwaldhoff"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "scolebourne"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Arun M. Thomas"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Craig McClanahan"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Geir Magnusson"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Henri Yandell"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Carman"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Matthew Hawthorne"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Morgan Delagrange"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Phil Steitz"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Robert Burrell Donkin"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rodney Waldhoff"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stephen Colebourne"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "commons-collections"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "http://commons.apache.org/collections/"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "3.2.2"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Bundle-Version",
+            "value": "3.2.2"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Version",
+            "value": "3.2.2"
+          },
+          {
+            "type": "version",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-version",
+            "value": "3.2.2"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "3.2.2"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/commons-collections/commons-collections@3.2.2",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/commons-collections/commons-collections@3.2.2?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ],
+      "vulnerabilityIds": [
+        {
+          "id": "cpe:2.3:a:apache:commons_collections:3.2.2:*:*:*:*:*:*:*",
+          "confidence": "HIGHEST",
+          "url": "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Acommons_collections&cpe_version=cpe%3A%2F%3Aapache%3Acommons_collections%3A3.2.2"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "commons-collections4-4.4.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/commons-collections4-4.4.jar",
+      "md5": "4a37023740719b391f10030362c86be6",
+      "sha1": "62ebe7544cb7164d87e0637a2a6a2bdc981395e8",
+      "sha256": "1df8b9430b5c8ed143d7815e403e33ef5371b2400aadbe9bda0883762e0846d1",
+      "description": "The Apache Commons Collections package contains types that extend and augment the Java Collections Framework.",
+      "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-collections4"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "collections4"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.apache.commons.collections4"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "https://commons.apache.org/proper/commons-collections/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.commons-collections4"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "https://commons.apache.org/proper/commons-collections/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Implementation-Vendor-Id",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "specification-vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-collections4"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "adriannistor"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "amamment"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "bayard"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "chtompki"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "craigmcc"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "dlaha"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "geirm"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ggregory"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jcarman"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "luc"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "matth"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "mbenson"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "morgand"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rdonkin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rwaldhoff"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "scolebourne"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "tn"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Adrian Nistor"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Arun M. Thomas"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Craig McClanahan"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Dipanjan Laha"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Gary Gregory"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Geir Magnusson"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Henri Yandell"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Carman"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Luc Maisonobe"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Matt Benson"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Matthew Hawthorne"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Morgan Delagrange"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Tompkins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Robert Burrell Donkin"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rodney Waldhoff"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stephen Colebourne"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Thomas Neidhart"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "https://commons.apache.org/proper/commons-collections/"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-collections4"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "collections4"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.apache.commons.collections4"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "https://commons.apache.org/proper/commons-collections/"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.commons-collections4"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Title",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-url",
+            "value": "https://commons.apache.org/proper/commons-collections/"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "specification-title",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-collections4"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "adriannistor"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "amamment"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "bayard"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "chtompki"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "craigmcc"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "dlaha"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "geirm"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ggregory"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "jcarman"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "luc"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "matth"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "mbenson"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "morgand"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rdonkin"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "rwaldhoff"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "scolebourne"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "tn"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Adrian Nistor"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Arun M. Thomas"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Craig McClanahan"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Dipanjan Laha"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Gary Gregory"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Geir Magnusson"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Henri Yandell"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "James Carman"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Luc Maisonobe"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Matt Benson"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Matthew Hawthorne"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Morgan Delagrange"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Tompkins"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Robert Burrell Donkin"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rodney Waldhoff"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stephen Colebourne"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Thomas Neidhart"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons Collections"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "https://commons.apache.org/proper/commons-collections/"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "4.4"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Version",
+            "value": "4.4"
+          },
+          {
+            "type": "version",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-version",
+            "value": "4.4"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "4.4"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/org.apache.commons/commons-collections4@4.4",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-collections4@4.4?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ],
+      "vulnerabilityIds": [
+        {
+          "id": "cpe:2.3:a:apache:commons_collections:4.4:*:*:*:*:*:*:*",
+          "confidence": "HIGHEST",
+          "url": "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Acommons_collections&cpe_version=cpe%3A%2F%3Aapache%3Acommons_collections%3A4.4"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "commons-compress-1.23.0.jar",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/dependency-check-bin/dependency-check/lib/commons-compress-1.23.0.jar",
+      "md5": "96b88349958aeaa15cdf6e5e877bdced",
+      "sha1": "4af2060ea9b0c8b74f1854c6cafe4d43cfc161fc",
+      "sha256": "c267f17160e9ef662b4d78b7f29dca7c82b15c5cff2cb6a9865ef4ab3dd5b787",
+      "description": "\nApache Commons Compress software defines an API for working with\ncompression and archive formats.  These include: bzip2, gzip, pack200,\nlzma, xz, Snappy, traditional Unix Compress, DEFLATE, DEFLATE64, LZ4,\nBrotli, Zstandard and ar, cpio, jar, tar, zip, dump, 7z, arj.\n  ",
+      "license": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-compress"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "compress"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.apache.commons.compress"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "build-jdk-spec",
+            "value": "1.8"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "https://commons.apache.org/proper/commons-compress/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.commons-compress"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "extension-name",
+            "value": "org.apache.commons.compress"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-build",
+            "value": "release@r${buildNumber}; 2023-03-18 17:42:20+0000"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Implementation-Vendor-Id",
+            "value": "org.apache"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "originally-created-by",
+            "value": "Apache Maven Bundle Plugin 5.1.8"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "specification-vendor",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-compress"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "bodewig at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "chtompki at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "damjan at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ebourg at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ggregory at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "grobmeier at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "julius at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "peterlee at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "sebb at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "tcurdt at apache.org"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "bodewig"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "chtompki"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "damjan"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ebourg"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ggregory"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "grobmeier"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "julius"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "peterlee"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "sebb"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer id",
+            "value": "tcurdt"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Christian Grobmeier"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Damjan Jovanovic"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Emmanuel Bourg"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Gary Gregory"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Julius Davies"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Peter Alfred Lee"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Tompkins"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Sebastian Bazley"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stefan Bodewig"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Torsten Curdt"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "vendor",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "https://www.apache.org/"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons Compress"
+          },
+          {
+            "type": "vendor",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "vendor",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "url",
+            "value": "https://commons.apache.org/proper/commons-compress/"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "commons-compress"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "apache"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "commons"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "jar",
+            "name": "package name",
+            "value": "compress"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "automatic-module-name",
+            "value": "org.apache.commons.compress"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "build-jdk-spec",
+            "value": "1.8"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "bundle-docurl",
+            "value": "https://commons.apache.org/proper/commons-compress/"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "Bundle-Name",
+            "value": "Apache Commons Compress"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "bundle-symbolicname",
+            "value": "org.apache.commons.commons-compress"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "extension-name",
+            "value": "org.apache.commons.compress"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "implementation-build",
+            "value": "release@r${buildNumber}; 2023-03-18 17:42:20+0000"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Title",
+            "value": "Apache Commons Compress"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "Manifest",
+            "name": "originally-created-by",
+            "value": "Apache Maven Bundle Plugin 5.1.8"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "Manifest",
+            "name": "specification-title",
+            "value": "Apache Commons Compress"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "artifactid",
+            "value": "commons-compress"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "bodewig at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "chtompki at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "damjan at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ebourg at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "ggregory at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "grobmeier at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "julius at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "peterlee at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "sebb at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer email",
+            "value": "tcurdt at apache.org"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "bodewig"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "chtompki"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "damjan"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ebourg"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "ggregory"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "grobmeier"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "julius"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "peterlee"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "sebb"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer id",
+            "value": "tcurdt"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Christian Grobmeier"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Damjan Jovanovic"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Emmanuel Bourg"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Gary Gregory"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Julius Davies"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Peter Alfred Lee"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Rob Tompkins"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Sebastian Bazley"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Stefan Bodewig"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer name",
+            "value": "Torsten Curdt"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org",
+            "value": "The Apache Software Foundation"
+          },
+          {
+            "type": "product",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "developer org URL",
+            "value": "https://www.apache.org/"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "groupid",
+            "value": "org.apache.commons"
+          },
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "pom",
+            "name": "name",
+            "value": "Apache Commons Compress"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "parent-artifactid",
+            "value": "commons-parent"
+          },
+          {
+            "type": "product",
+            "confidence": "MEDIUM",
+            "source": "pom",
+            "name": "url",
+            "value": "https://commons.apache.org/proper/commons-compress/"
+          }
+        ],
+        "versionEvidence": [
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "version",
+            "value": "1.23.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Bundle-Version",
+            "value": "1.23.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGH",
+            "source": "Manifest",
+            "name": "Implementation-Version",
+            "value": "1.23.0"
+          },
+          {
+            "type": "version",
+            "confidence": "LOW",
+            "source": "pom",
+            "name": "parent-version",
+            "value": "1.23.0"
+          },
+          {
+            "type": "version",
+            "confidence": "HIGHEST",
+            "source": "pom",
+            "name": "version",
+            "value": "1.23.0"
+          }
+        ]
+      },
+      "packages": [
+        {
+          "id": "pkg:maven/org.apache.commons/commons-compress@1.23.0",
+          "confidence": "HIGH",
+          "url": "https://ossindex.sonatype.org/component/pkg:maven/org.apache.commons/commons-compress@1.23.0?utm_source=dependency-check&utm_medium=integration&utm_content=8.3.1"
+        }
+      ],
+      "vulnerabilityIds": [
+        {
+          "id": "cpe:2.3:a:apache:commons_compress:1.23.0:*:*:*:*:*:*:*",
+          "confidence": "HIGHEST",
+          "url": "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Aapache&cpe_product=cpe%3A%2F%3Aapache%3Acommons_compress&cpe_version=cpe%3A%2F%3Aapache%3Acommons_compress%3A1.23.0"
+        }
+      ]
+    },
+    {
+      "isVirtual": false,
+      "fileName": "invalidTypeForClient.exe",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/test/files/invalidTypeForClient.exe",
+      "md5": "2319ac34f4848755a639fd524038dfd3",
+      "sha1": "3082a2f97b22b4602e8d39083eef2ca0f7e54c4c",
+      "sha256": "c90232586b801f9558a76f2f963eccd831d9fe6775e4c8f1446b2331aa2132f2",
+      "evidenceCollected": {
+        "vendorEvidence": [
+          {
+            "type": "vendor",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "invalidTypeForClient"
+          }
+        ],
+        "productEvidence": [
+          {
+            "type": "product",
+            "confidence": "HIGH",
+            "source": "file",
+            "name": "name",
+            "value": "invalidTypeForClient"
+          }
+        ],
+        "versionEvidence": []
+      }
+    },
+    {
+      "isVirtual": false,
+      "fileName": "package.json",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/frontend/package.json",
+      "md5": "d7aad9116ab8f3ae8826f8029db094aa",
+      "sha1": "e887867f9a890bd2416b6b9d09b8a49c27dcc45b",
+      "sha256": "883fb34f331e8d773ba3617c1647dd0dde58d4c8619b6ea74e5327f2e4985089",
+      "evidenceCollected": {
+        "vendorEvidence": [],
+        "productEvidence": [],
+        "versionEvidence": []
+      }
+    },
+    {
+      "isVirtual": false,
+      "fileName": "package.json",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/package.json",
+      "md5": "5ffd6220bf9047cc9fd20e09736dba13",
+      "sha1": "d95a4dcaa9fe89901a19af03c11a2fb019017b6b",
+      "sha256": "b050eaececebb9d7aa0bcc978959d21618d799f94b8770f7ea3425fdf6b15db9",
+      "evidenceCollected": {
+        "vendorEvidence": [],
+        "productEvidence": [],
+        "versionEvidence": []
+      }
+    },
+    {
+      "isVirtual": false,
+      "fileName": "themes.js",
+      "filePath": "/builds/it-sec/agile-angels/juice-shop/views/themes/themes.js",
+      "md5": "7837164319aebacb17b13c3f99ddba88",
+      "sha1": "69a56706bc0a6b129b9f5dee99b1e914a993db81",
+      "sha256": "31559447ac4738eef09630a686209a92fd870da10ea5abb6d1238379e61a4161",
+      "evidenceCollected": {
+        "vendorEvidence": [],
+        "productEvidence": [],
+        "versionEvidence": []
+      }
+    }
+  ]
+}

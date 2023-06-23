@@ -1,0 +1,25 @@
+h2{
+    text-align: center;
+}
+
+
+/* Allgemeines Styling für die Tabelle */
+table {
+    border-collapse: collapse;
+    margin: 0 auto 3rem auto;
+    width: 75%;
+  }
+  
+  /* Styling für die Tabellenüberschrift */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Styling für Tabelleneinträge */
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
